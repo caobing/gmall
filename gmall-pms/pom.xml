@@ -24,6 +24,19 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
+        <!--依赖api层-->
+        <dependency>
+            <groupId>org.hyxd.gmall</groupId>
+            <artifactId>gmall-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--引用logback整合logstash的第三方包-->
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>5.3</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
